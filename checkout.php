@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 @include 'config.php';
 
 if(isset($_POST['order_btn'])){
